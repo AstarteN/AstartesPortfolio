@@ -1,0 +1,77 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(250, 97, 173), 0, 173); /* White background */
+    color: #333; /* Dark text color */
+    
+}
+
+/* Header styles */
+header {
+    background-color: #ffcccc; /* Light pink background */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #cc0066; /* Dark pink heading color */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #cc0066; /* Dark pink link color */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Bio section styles */
+.bio {
+    background-color: #ffcccc; /* Light pink background */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Code Projects section styles */
+.code {
+    background-color: #ffb3b3; /* Light red background */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.github ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.github li {
+    margin-bottom: 10px;
+}
+
+.github a {
+    color: #cc0066; /* Dark pink link color */
+    text-decoration: none;
+}
+
+.github a:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astarte's Films</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <style>
+        /* CSS for the film page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9; /* Light gray background */
+            color: #333; /* Dark text color */
+            margin: 0;
+            padding: 0;
+            background-color: #ff6cb5;
+        }
+
+        header {
+            background-color: #ff6cb5; /* Dark pink background */
+            color: #fff; /* White text color */
+            padding: 20px 0; /* Add padding top and bottom, 0 left and right */
+            text-align: center;
+        }
+
+        header h1 {
+            color: #ffffff; /* Change the color of the title to hot pink */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .bio {
+            background-color: rgb(127, 255, 232); /* White background */
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .film-section {
+            margin-top: 30px;
+        }
+
+        .film {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; /* Vertically center items */
+            margin-bottom: 40px; /* Add extra margin between sections */
+            width: 90%; /* Adjust the width of the film section */
+            margin: 0 auto; /* Center the film section */
+            background-color:rgb(127, 255, 232); /* Change the background color to light gray */
+            padding: 20px; /* Add padding for better visual appearance */
+            border-radius: 10px; /* Add border radius for rounded corners */
+        }
+
+        .film-images {
+            display: flex;
+            justify-content: space-between; /* Ensure images stay side by side */
+            width: 100%; /* Adjust the width of the images container */
+            margin-bottom: 20px;
+        }
+
+        .film img {
+            width: 48%; /* Adjust the width of the images */
+            max-width: 400px; /* Set max-width for responsiveness */
+            border-radius: 5px;
+        }
+
+        .project-link {
+            text-align: center;
+            width: 30%; /* Adjust the width of the project link */
+        }
+
+        .project-link a {
+            display: block; /* Make the link fill the entire width */
+            color: #fff;
+            background-color: #ff6cb5; /* Dark pink background */
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 10px 0;
+            background-color: #ff3d9e;
+            color: #fff;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Astarte's Films</h1>
+    <div class="back-to-main">
+        <a href="index.html">Back to Main Page</a>
+    </div>
+</header>
+
+<div class="container">
+    <div class="bio">
+    
+        <p>Welcome to Astarte's Films page where you can explore her cinematic creations!</p>
+    </div>
+
+    <!-- Film section -->
+    <section class="film-section">
+        <div class="film">
+            <div class="film-images">
+                <img src="Person1.png" alt="Film 1 Image 1">
+                <img src="Person2.png" alt="Film 1 Image 2">
+            </div>
+            <div class="project-link">
+                <h3><a href="https://youtu.be/YRy0SHLJ9ys">Project 1</a></h3>
+            </div>
+        </div>
+        <div class="film">
+            <div class="film-images">
+                <img src="TheMan1.png" alt="Film 2 Image 1">
+                <img src="TheMan2.png" alt="Film 2 Image 2">
+            </div>
+            <div class="project-link">
+                <h3><a href="https://youtu.be/i3wLhBr-AoE">Project 2</a></h3>
+            </div>
+        </div>
+        <div class="film">
+            <div class="film-images">
+                <img src="TheEnd1.png" alt="Film 3 Image 1">
+                <img src="TheEnd2.png" alt="Film 3 Image 2">
+            </div>
+            <div class="project-link">
+                <h3><a href="https://www.youtube.com/watch?v=h_G6Q8MMY4E">Project 3</a></h3>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p><a href="index.html">Back to Main Page</a></p>
+</footer>
+
+</body>
+</html>
